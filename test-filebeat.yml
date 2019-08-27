@@ -1,0 +1,6 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - /home/kkuei/logstash_study/testlog 
+output.logstash:
+  hosts: ["localhost:5044"]
